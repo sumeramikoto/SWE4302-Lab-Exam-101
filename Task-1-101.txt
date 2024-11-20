@@ -1,0 +1,11 @@
+The following code smells were found in the inventorySystem.java file:
+
+Line 6-198, Large Class, The inventorySystem class is trying to do too much, having multiple classes and methods within it and thus carrying too many responsibilities.
+
+Line 41-42, Long Parameter List, 7 arguments are being passed to the addProduct method, which is way too much.
+
+Line 44-67, Conditional Complexity, In this block of code, a total of 5 if statements were nested. Thus, it made the whole logic very complex.
+
+Line 78-98, Switch Statements, Switch cases were used here.
+
+Line 41-72, 74-102, 132-167, Long Function, The functions in the aforementioned lines of code (addProduct, calculateFinalPrice and processOrder respectively) are very long.
