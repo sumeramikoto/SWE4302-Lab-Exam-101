@@ -2,7 +2,7 @@ public class IceCreamFlavor {
     private String name;
     private double costPerScoop;
     private int scoops;
-    private double finalCost;
+    private double flavorCost;
 
     public IceCreamFlavor(int scoops) {
         this.scoops = scoops;
@@ -24,7 +24,7 @@ public class IceCreamFlavor {
         this.costPerScoop = costPerScoop;
     }
 
-    public void calculateFinalCost() {
-        this.finalCost = scoops * costPerScoop;
+    public void calculateFlavorCost() {
+        this.flavorCost = scoops * costPerScoop;
     }
 }
