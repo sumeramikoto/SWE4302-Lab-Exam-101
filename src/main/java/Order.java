@@ -30,7 +30,12 @@ public class Order {
     public double calculateOrderSubtotal() {
         double totalFlavorCost = calculateFlavorCost();
         double totalToppingCost = calculateToppingCost();
-        return totalFlavorCost + totalToppingCost;
+        if (hasWaffleCone) {
+            double waffleConePrice = 5.00;
+            return totalFlavorCost + totalToppingCost + waffleConePrice;
+        } else {
+            return totalFlavorCost + totalToppingCost;
+        }
     }
 
     public double calculateOrderTax() {
