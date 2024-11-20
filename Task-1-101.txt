@@ -9,3 +9,5 @@ Line 44-67, Conditional Complexity, In this block of code, a total of 5 if state
 Line 78-98, Switch Statements, Switch cases were used here.
 
 Line 41-72, 74-102, 132-167, Long Function, The functions in the aforementioned lines of code (addProduct, calculateFinalPrice and processOrder respectively) are very long.
+
+Line 134, 153, Magic Number, It's not clearly understood why the number -1 is being returned here.
