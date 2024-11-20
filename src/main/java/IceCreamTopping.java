@@ -1,10 +1,11 @@
 public class IceCreamTopping {
     private String name;
     private double cost;
+    private int toppingAmount;
+    private double toppingTotalCost;
 
-    public IceCreamTopping(String name, double cost) {
-        this.name = name;
-        this.cost = cost;
+    public IceCreamTopping(int toppingAmount) {
+        this.toppingAmount = toppingAmount;
     }
 
     public String getName() {
@@ -21,5 +22,9 @@ public class IceCreamTopping {
 
     public void setCost(double cost) {
         this.cost = cost;
+    }
+
+    public void calculateToppingCost() {
+        this.toppingTotalCost = toppingAmount * cost;
     }
 }
