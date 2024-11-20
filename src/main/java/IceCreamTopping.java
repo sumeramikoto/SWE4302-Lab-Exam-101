@@ -31,4 +31,8 @@ public class IceCreamTopping {
     public double getToppingCost() {
         return toppingTotalCost;
     }
+
+    public int getToppingAmount() {
+        return toppingAmount;
+    }
 }
