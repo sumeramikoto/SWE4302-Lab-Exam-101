@@ -31,4 +31,8 @@ public class IceCreamFlavor {
     public double getFlavorCost() {
         return flavorTotalCost;
     }
+
+    public int getScoops() {
+        return scoops;
+    }
 }
