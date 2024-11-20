@@ -1,10 +1,10 @@
 public class IceCreamFlavor {
     private String name;
     private double costPerScoop;
+    private int scoops;
 
-    public IceCreamFlavor(String name, double cost) {
-        this.name = name;
-        this.costPerScoop = cost;
+    public IceCreamFlavor(int scoops) {
+        this.scoops = scoops;
     }
 
     public String getName() {
