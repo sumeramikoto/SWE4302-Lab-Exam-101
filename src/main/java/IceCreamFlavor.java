@@ -27,4 +27,8 @@ public class IceCreamFlavor {
     public void calculateFlavorCost() {
         this.flavorTotalCost = scoops * costPerScoop;
     }
+
+    public double getFlavorCost() {
+        return flavorTotalCost;
+    }
 }

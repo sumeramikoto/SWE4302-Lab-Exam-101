@@ -27,4 +27,8 @@ public class IceCreamTopping {
     public void calculateToppingCost() {
         this.toppingTotalCost = toppingAmount * cost;
     }
+
+    public double getToppingCost() {
+        return toppingTotalCost;
+    }
 }
