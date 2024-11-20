@@ -3,10 +3,12 @@ import java.util.List;
 public class Order {
     private List<IceCreamFlavor> flavorList;
     private List<IceCreamTopping> toppingList;
+    private boolean hasWaffleCone;
 
-    public Order(List<IceCreamFlavor> flavorList, List<IceCreamTopping> toppingList) {
+    public Order(List<IceCreamFlavor> flavorList, List<IceCreamTopping> toppingList, boolean hasWaffleCone) {
         this.flavorList = flavorList;
         this.toppingList = toppingList;
+        this.hasWaffleCone = hasWaffleCone;
     }
 
     public double calculateFlavorCost() {
